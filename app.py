@@ -8,7 +8,7 @@ try:
     hpp =
        joblib.load("house_rent_prediction.pkl")
 except Exception as e:
-    st.error(f"Model loading error :{e}"}
+    st.error(f"Model loading error :{e}")
              st.stop()
 
 encoder = hpp["encoder"]
