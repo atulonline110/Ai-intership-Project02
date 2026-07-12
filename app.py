@@ -58,7 +58,7 @@ if st.button("Predict Rent"):
     new_house = pd.DataFrame({
         "BHK": [bhk],
         "Size": [size],
-        "Area Locality": ['area_type'],
+        "Area Locality": ['area_locality'],
         "Furnishing Status": [furnishing],
         "Tenant Preferred": [tenant],
         "Bathroom": [bathroom],
